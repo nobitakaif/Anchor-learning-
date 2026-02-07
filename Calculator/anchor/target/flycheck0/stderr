@@ -1,0 +1,87 @@
+   0.247922900s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic)/Check { test: false }/TargetInner { ..: lib_target("basic", ["cdylib", "lib"], "C:\\Users\\mk281\\Desktop\\Solana contract\\Calculator\\anchor\\programs\\basic\\src\\lib.rs", Edition2021) }
+   0.248011900s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\basic-a3fae0a4eb7a4aca\lib-basic`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.261154300s  INFO prepare_target{force=false package_id=anchor-lang v0.32.1 target="anchor_lang"}: cargo::core::compiler::fingerprint: fingerprint error for anchor-lang v0.32.1/Check { test: false }/TargetInner { ..: lib_target("anchor_lang", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anchor-lang-0.32.1\\src\\lib.rs", Edition2021) }
+   0.261191900s  INFO prepare_target{force=false package_id=anchor-lang v0.32.1 target="anchor_lang"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\anchor-lang-c14344ecaecd69aa\lib-anchor_lang`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.290307800s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic)/Check { test: true }/TargetInner { ..: lib_target("basic", ["cdylib", "lib"], "C:\\Users\\mk281\\Desktop\\Solana contract\\Calculator\\anchor\\programs\\basic\\src\\lib.rs", Edition2021) }
+   0.290368800s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\basic-5fc2b84a3d486f62\test-lib-basic`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking anchor-lang v0.32.1
+error: could not compile `anchor-lang` (lib) due to 2 previous errors
