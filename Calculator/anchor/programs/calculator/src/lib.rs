@@ -1,0 +1,83 @@
+use anchor_lang::prelude::*;
+
+declare_id!("DKDpPbnUGisMLEfj838NrL59D6kDvcVmDZuVRsVxn4bH");
+
+#[program]
+pub mod basic {
+    use super::*;
+
+    pub fn greet(_ctx: Context<Initialize>) -> Result<()> {
+        msg!("GM!");
+        Ok(())
+    }
+
+    pub fn initialize(ctx : Context<Initialize>)-> Result<()>{
+        ctx.accounts.calculator.result =0;
+        ctx.accounts.calculator.payer = ctx.accounts.payer.key();
+        print!("your current state of the result -> {:?}", ctx.accounts.calculator.result);
+        print!("who is the singer of your account -> {:?}", ctx.accounts.calculator.payer);
+        msg!("current state of result {:?}", ctx.accounts.calculator.result);
+        msg!("who is signer {:?}", ctx.accounts.calculator.payer);
+        Ok(())
+    }
+
+    pub fn add(ctx:Context<Add>, a:u8, b:u8)->Result<()>{
+        ctx.accounts.add.result = a+b;
+        msg!("Success");
+        Ok(())
+    }
+
+    pub fn sub(ctx: Context<Sub>, a:u8, b:u8) -> Result<()>{
+        require!(a>b, SubErr::SubError);
+        ctx.accounts.sub.result = a-b;
+        Ok(())
+    }
+}
+
+// this is similar as class which we're defining how it look like, ths is eventually stored in blockchain
+#[account]
+// #[derive(InitSpace)]
+pub struct CalculatorTemplate{
+    result : u8,
+    payer : Pubkey,
+}
+
+impl Space for CalculatorTemplate{
+    const INIT_SPACE: usize = 8+1+32 ;
+}
+
+#[derive(Accounts)]
+pub struct Initialize<'info> {
+    // singer using #[account(mut)]
+    #[account(mut)]
+    payer : Signer<'info>, // payer -> who is going to pay for this account 
+
+    // for actually creating the object 
+    #[account(
+        init,
+        space = CalculatorTemplate::InitSpace, // 8 should be always, 1 bytes for result u8(8 bits== 1 bytes), 32 for pub key(for the key always 32 bytes)
+        payer = payer, // who will pay for this account
+        seeds = [b"calcu", payer.key().as_ref()],
+        bump,
+    )]
+    calculator : Account<'info, CalculatorTemplate>,
+    system_program : Program<'info, System>
+}
+
+#[derive(Accounts)]
+pub struct Add<'info>{
+    #[account(mut)]
+    add : Account<'info, CalculatorTemplate>
+}
+
+#[derive(Accounts)]
+pub struct Sub<'info>{
+    #[account(mut)]
+    sub : Account<'info,CalculatorTemplate>
+}
+
+#[error_code]
+pub enum SubErr{
+    #[msg("first agrument always should be geater than secong argument")]
+    SubError
+}
