@@ -1,6 +1,3 @@
-[workspace]
-members = ["programs/*"]
-
 [toolchain]
 package_manager = "yarn"
 
@@ -9,14 +6,16 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-basic = "JAVuBXeBZqXNtS73azhBDAoYaaAFfo4gWXoZe2e7Jf8H"
+basic = "AnKVxKWVWJpjn8t5EgD3eB5UugSQH9CvfeyhAhfaKqC5"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "devnet"
+cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "../node_modules/.bin/jest --preset ts-jest"
+
+[hooks]

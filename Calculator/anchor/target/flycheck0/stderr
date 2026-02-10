@@ -1,0 +1,2336 @@
+   0.335059200s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic)/Check { test: false }/TargetInner { ..: lib_target("basic", ["cdylib", "lib"], "C:\\Users\\mk281\\Desktop\\Solana contract\\Calculator\\anchor\\programs\\basic\\src\\lib.rs", Edition2021) }
+   0.336488700s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\basic-a3fae0a4eb7a4aca\lib-basic`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.359811400s  INFO prepare_target{force=false package_id=anchor-lang v0.32.1 target="anchor_lang"}: cargo::core::compiler::fingerprint: fingerprint error for anchor-lang v0.32.1/Check { test: false }/TargetInner { ..: lib_target("anchor_lang", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anchor-lang-0.32.1\\src\\lib.rs", Edition2021) }
+   0.359844500s  INFO prepare_target{force=false package_id=anchor-lang v0.32.1 target="anchor_lang"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\anchor-lang-c14344ecaecd69aa\lib-anchor_lang`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.371890900s  INFO prepare_target{force=false package_id=base64 v0.21.7 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.21.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.21.7\\src\\lib.rs", Edition2018) }
+   0.372536500s  INFO prepare_target{force=false package_id=base64 v0.21.7 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\base64-7734bfa11ed5b63d\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.373694900s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint: fingerprint error for bincode v1.3.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bincode", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bincode-1.3.3\\src\\lib.rs", Edition2015) }
+   0.373720500s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\bincode-fe112e090db24886\lib-bincode`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.374164500s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.219/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.219\\src\\lib.rs", Edition2018) }
+   0.374180200s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\serde-21622c9a6f1f533b\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.374586100s  INFO prepare_target{force=false package_id=borsh v0.10.4 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint error for borsh v0.10.4/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\borsh-0.10.4\\src\\lib.rs", Edition2018) }
+   0.374599400s  INFO prepare_target{force=false package_id=borsh v0.10.4 target="borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\borsh-0322c970ad98921f\lib-borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.375779700s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.13.2\\src\\lib.rs", Edition2021) }
+   0.375799000s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\hashbrown-40f194887772950c\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.376665300s  INFO prepare_target{force=false package_id=ahash v0.8.11 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.11/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.11\\src\\lib.rs", Edition2018) }
+   0.376685600s  INFO prepare_target{force=false package_id=ahash v0.8.11 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\ahash-847af031cad7d644\lib-ahash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.377684100s  INFO prepare_target{force=false package_id=cfg-if v1.0.0 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cfg_if", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.0\\src\\lib.rs", Edition2018) }
+   0.377701300s  INFO prepare_target{force=false package_id=cfg-if v1.0.0 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\cfg-if-48e99f456d0eb441\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.378263500s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   0.378281000s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\once_cell-28b2b16321f91517\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.378666400s  INFO prepare_target{force=false package_id=zerocopy v0.7.35 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.7.35/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zerocopy", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.7.35\\src\\lib.rs", Edition2018) }
+   0.378679900s  INFO prepare_target{force=false package_id=zerocopy v0.7.35 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\zerocopy-59980a6a0b909329\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.379336200s  INFO prepare_target{force=false package_id=bytemuck v1.22.0 target="bytemuck"}: cargo::core::compiler::fingerprint: fingerprint error for bytemuck v1.22.0/Check { test: false }/TargetInner { ..: lib_target("bytemuck", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytemuck-1.22.0\\src\\lib.rs", Edition2018) }
+   0.379354600s  INFO prepare_target{force=false package_id=bytemuck v1.22.0 target="bytemuck"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\bytemuck-f3ee152f057eb29c\lib-bytemuck`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.379923300s  INFO prepare_target{force=false package_id=solana-account-info v2.2.1 target="solana_account_info"}: cargo::core::compiler::fingerprint: fingerprint error for solana-account-info v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_account_info", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-account-info-2.2.1\\src\\lib.rs", Edition2021) }
+   0.379938800s  INFO prepare_target{force=false package_id=solana-account-info v2.2.1 target="solana_account_info"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-account-info-e975d858319b8750\lib-solana_account_info`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.380490700s  INFO prepare_target{force=false package_id=solana-program-error v2.2.1 target="solana_program_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-error v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_error", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-error-2.2.1\\src\\lib.rs", Edition2021) }
+   0.380505300s  INFO prepare_target{force=false package_id=solana-program-error v2.2.1 target="solana_program_error"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-program-error-d58cdf63ff8c34d6\lib-solana_program_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.381031600s  INFO prepare_target{force=false package_id=borsh v1.5.7 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint error for borsh v1.5.7/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\borsh-1.5.7\\src\\lib.rs", Edition2018) }
+   0.381046200s  INFO prepare_target{force=false package_id=borsh v1.5.7 target="borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\borsh-48ac56b24fbab071\lib-borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.383232600s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   0.383255000s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\num-traits-04b37eacb1760819\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.384345000s  INFO prepare_target{force=false package_id=solana-decode-error v2.2.1 target="solana_decode_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-decode-error v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_decode_error", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-decode-error-2.2.1\\src\\lib.rs", Edition2021) }
+   0.384364400s  INFO prepare_target{force=false package_id=solana-decode-error v2.2.1 target="solana_decode_error"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-decode-error-4fa962df47c2f6be\lib-solana_decode_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.384752700s  INFO prepare_target{force=false package_id=solana-instruction v2.2.1 target="solana_instruction"}: cargo::core::compiler::fingerprint: fingerprint error for solana-instruction v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_instruction", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-instruction-2.2.1\\src\\lib.rs", Edition2021) }
+   0.384767300s  INFO prepare_target{force=false package_id=solana-instruction v2.2.1 target="solana_instruction"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-instruction-08b5a64393ead3ba\lib-solana_instruction`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.385366300s  INFO prepare_target{force=false package_id=solana-pubkey v2.3.0 target="solana_pubkey"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pubkey v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_pubkey", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-pubkey-2.3.0\\src\\lib.rs", Edition2021) }
+   0.385380000s  INFO prepare_target{force=false package_id=solana-pubkey v2.3.0 target="solana_pubkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-pubkey-fd0b9c3ae095c513\lib-solana_pubkey`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.386178500s  INFO prepare_target{force=false package_id=bs58 v0.5.1 target="bs58"}: cargo::core::compiler::fingerprint: fingerprint error for bs58 v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bs58", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bs58-0.5.1\\src\\lib.rs", Edition2021) }
+   0.386197300s  INFO prepare_target{force=false package_id=bs58 v0.5.1 target="bs58"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\bs58-a0b92a64c8e9cc0b\lib-bs58`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.386555300s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.3\\src\\lib.rs", Edition2021) }
+   0.386568900s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\curve25519-dalek-f89974e30596c451\lib-curve25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.387368900s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   0.387401800s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\cpufeatures-bdf8e86a231c4d5b\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.390013100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.390044500s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\digest-3ff4cb26ed797de9\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.390885000s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.390909800s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\block-buffer-a0ff9bf9aef74021\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.391370400s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   0.391387700s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\generic-array-97a331f50ea580d7\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   0.392007400s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.18.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.18.0\\src\\lib.rs", Edition2018) }
+   0.392025300s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\typenum-0a096a8702cf8d3f\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_libgit2_prerelease
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: <unknown>
+  26: git_midx_writer_dump
+  27: git_filter_source_repo
+  28: git_midx_writer_dump
+  29: BaseThreadInitThunk
+  30: RtlUserThreadStart
+   0.392393300s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
+   0.392408400s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\crypto-common-a0cda56b18f6b32e\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.393039900s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
+   0.393057400s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\rand_core-ddd30cf79dad26cb\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.393444900s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   0.393460700s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\subtle-61807d6a4ba84f63\lib-subtle`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.393825800s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zeroize", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.8.1\\src\\lib.rs", Edition2021) }
+   0.393838400s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\zeroize-b62aea687e6f6f78\lib-zeroize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.394166500s  INFO prepare_target{force=false package_id=five8_const v0.1.4 target="five8_const"}: cargo::core::compiler::fingerprint: fingerprint error for five8_const v0.1.4/Check { test: false }/TargetInner { ..: lib_target("five8_const", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8_const-0.1.4\\src\\lib.rs", Edition2021) }
+   0.394178100s  INFO prepare_target{force=false package_id=five8_const v0.1.4 target="five8_const"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\five8_const-01abae5fab2564c0\lib-five8_const`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.394775800s  INFO prepare_target{force=false package_id=five8_core v0.1.2 target="five8_core"}: cargo::core::compiler::fingerprint: fingerprint error for five8_core v0.1.2/Check { test: false }/TargetInner { ..: lib_target("five8_core", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8_core-0.1.2\\src\\lib.rs", Edition2021) }
+   0.394794000s  INFO prepare_target{force=false package_id=five8_core v0.1.2 target="five8_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\five8_core-4298855583d9bb46\lib-five8_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.395351100s  INFO prepare_target{force=false package_id=solana-atomic-u64 v2.2.1 target="solana_atomic_u64"}: cargo::core::compiler::fingerprint: fingerprint error for solana-atomic-u64 v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_atomic_u64", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-atomic-u64-2.2.1\\src\\lib.rs", Edition2021) }
+   0.395369800s  INFO prepare_target{force=false package_id=solana-atomic-u64 v2.2.1 target="solana_atomic_u64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-atomic-u64-7c7041d80ef81a6c\lib-solana_atomic_u64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.395789000s  INFO prepare_target{force=false package_id=solana-sanitize v2.2.1 target="solana_sanitize"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sanitize v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sanitize", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sanitize-2.2.1\\src\\lib.rs", Edition2021) }
+   0.395803000s  INFO prepare_target{force=false package_id=solana-sanitize v2.2.1 target="solana_sanitize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-sanitize-5c7d931936ec1326\lib-solana_sanitize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.396135500s  INFO prepare_target{force=false package_id=solana-sha256-hasher v2.2.1 target="solana_sha256_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sha256-hasher v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sha256_hasher", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sha256-hasher-2.2.1\\src\\lib.rs", Edition2021) }
+   0.396149100s  INFO prepare_target{force=false package_id=solana-sha256-hasher v2.2.1 target="solana_sha256_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-sha256-hasher-281a4666b71c27f0\lib-solana_sha256_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.397229500s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.8\\src\\lib.rs", Edition2018) }
+   0.397249700s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\sha2-1153c1644036f94a\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.397649000s  INFO prepare_target{force=false package_id=solana-hash v2.2.1 target="solana_hash"}: cargo::core::compiler::fingerprint: fingerprint error for solana-hash v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_hash", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-hash-2.2.1\\src\\lib.rs", Edition2021) }
+   0.397663200s  INFO prepare_target{force=false package_id=solana-hash v2.2.1 target="solana_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-hash-7b833198222aec48\lib-solana_hash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.398101400s  INFO prepare_target{force=false package_id=solana-msg v2.2.1 target="solana_msg"}: cargo::core::compiler::fingerprint: fingerprint error for solana-msg v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_msg", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-msg-2.2.1\\src\\lib.rs", Edition2021) }
+   0.398115100s  INFO prepare_target{force=false package_id=solana-msg v2.2.1 target="solana_msg"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-msg-2cbc169e24a3b9a0\lib-solana_msg`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.398460900s  INFO prepare_target{force=false package_id=solana-program-memory v2.2.1 target="solana_program_memory"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-memory v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_memory", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-memory-2.2.1\\src\\lib.rs", Edition2021) }
+   0.398475000s  INFO prepare_target{force=false package_id=solana-program-memory v2.2.1 target="solana_program_memory"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-program-memory-f04472f367d6ec72\lib-solana_program_memory`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.399056500s  INFO prepare_target{force=false package_id=solana-clock v2.2.1 target="solana_clock"}: cargo::core::compiler::fingerprint: fingerprint error for solana-clock v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_clock", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-clock-2.2.1\\src\\lib.rs", Edition2021) }
+   0.399074500s  INFO prepare_target{force=false package_id=solana-clock v2.2.1 target="solana_clock"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-clock-a0e5caf7942ab97f\lib-solana_clock`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.399662700s  INFO prepare_target{force=false package_id=solana-sdk-ids v2.2.1 target="solana_sdk_ids"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sdk-ids v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sdk_ids", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sdk-ids-2.2.1\\src\\lib.rs", Edition2021) }
+   0.399676900s  INFO prepare_target{force=false package_id=solana-sdk-ids v2.2.1 target="solana_sdk_ids"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-sdk-ids-d8b0052023b1381d\lib-solana_sdk_ids`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.400322100s  INFO prepare_target{force=false package_id=solana-sysvar-id v2.2.1 target="solana_sysvar_id"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sysvar-id v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sysvar_id", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sysvar-id-2.2.1\\src\\lib.rs", Edition2021) }
+   0.400338900s  INFO prepare_target{force=false package_id=solana-sysvar-id v2.2.1 target="solana_sysvar_id"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-sysvar-id-a23e47b2553d3e98\lib-solana_sysvar_id`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.400916300s  INFO prepare_target{force=false package_id=solana-cpi v2.2.1 target="solana_cpi"}: cargo::core::compiler::fingerprint: fingerprint error for solana-cpi v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_cpi", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-cpi-2.2.1\\src\\lib.rs", Edition2021) }
+   0.400934300s  INFO prepare_target{force=false package_id=solana-cpi v2.2.1 target="solana_cpi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-cpi-b19daedc93ef6254\lib-solana_cpi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.401783600s  INFO prepare_target{force=false package_id=solana-define-syscall v2.2.1 target="solana_define_syscall"}: cargo::core::compiler::fingerprint: fingerprint error for solana-define-syscall v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_define_syscall", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-define-syscall-2.2.1\\src\\lib.rs", Edition2021) }
+   0.401807100s  INFO prepare_target{force=false package_id=solana-define-syscall v2.2.1 target="solana_define_syscall"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-define-syscall-4f33060f9b549ca8\lib-solana_define_syscall`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.402309300s  INFO prepare_target{force=false package_id=solana-feature-gate-interface v2.2.1 target="solana_feature_gate_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-feature-gate-interface v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_feature_gate_interface", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-feature-gate-interface-2.2.1\\src\\lib.rs", Edition2021) }
+   0.402326100s  INFO prepare_target{force=false package_id=solana-feature-gate-interface v2.2.1 target="solana_feature_gate_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-feature-gate-interface-fb6498d064c34d33\lib-solana_feature_gate_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.402814400s  INFO prepare_target{force=false package_id=solana-instructions-sysvar v2.2.1 target="solana_instructions_sysvar"}: cargo::core::compiler::fingerprint: fingerprint error for solana-instructions-sysvar v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_instructions_sysvar", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-instructions-sysvar-2.2.1\\src\\lib.rs", Edition2021) }
+   0.402828800s  INFO prepare_target{force=false package_id=solana-instructions-sysvar v2.2.1 target="solana_instructions_sysvar"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-instructions-sysvar-777a7a987a209ecc\lib-solana_instructions_sysvar`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.403330400s  INFO prepare_target{force=false package_id=bitflags v2.9.0 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.9.0/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bitflags-2.9.0\\src\\lib.rs", Edition2021) }
+   0.403347500s  INFO prepare_target{force=false package_id=bitflags v2.9.0 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\bitflags-44eb51530de307a9\lib-bitflags`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.404455000s  INFO prepare_target{force=false package_id=solana-serialize-utils v2.2.1 target="solana_serialize_utils"}: cargo::core::compiler::fingerprint: fingerprint error for solana-serialize-utils v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_serialize_utils", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-serialize-utils-2.2.1\\src\\lib.rs", Edition2021) }
+   0.404490300s  INFO prepare_target{force=false package_id=solana-serialize-utils v2.2.1 target="solana_serialize_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-serialize-utils-197540c4bbe5434c\lib-solana_serialize_utils`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.405241800s  INFO prepare_target{force=false package_id=solana-invoke v0.4.0 target="solana_invoke"}: cargo::core::compiler::fingerprint: fingerprint error for solana-invoke v0.4.0/Check { test: false }/TargetInner { ..: lib_target("solana_invoke", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-invoke-0.4.0\\src\\lib.rs", Edition2021) }
+   0.405265900s  INFO prepare_target{force=false package_id=solana-invoke v0.4.0 target="solana_invoke"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-invoke-067ebd608a653291\lib-solana_invoke`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.406067100s  INFO prepare_target{force=false package_id=solana-program-entrypoint v2.2.1 target="solana_program_entrypoint"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-entrypoint v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_entrypoint", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-entrypoint-2.2.1\\src\\lib.rs", Edition2021) }
+   0.406086500s  INFO prepare_target{force=false package_id=solana-program-entrypoint v2.2.1 target="solana_program_entrypoint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-program-entrypoint-b789769a0f644ff2\lib-solana_program_entrypoint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.406733300s  INFO prepare_target{force=false package_id=solana-stable-layout v2.2.1 target="solana_stable_layout"}: cargo::core::compiler::fingerprint: fingerprint error for solana-stable-layout v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_stable_layout", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-stable-layout-2.2.1\\src\\lib.rs", Edition2021) }
+   0.406749500s  INFO prepare_target{force=false package_id=solana-stable-layout v2.2.1 target="solana_stable_layout"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-stable-layout-746e94e48fd69592\lib-solana_stable_layout`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.407591300s  INFO prepare_target{force=false package_id=solana-loader-v3-interface v3.0.0 target="solana_loader_v3_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v3-interface v3.0.0/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v3_interface", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v3-interface-3.0.0\\src\\lib.rs", Edition2021) }
+   0.407614300s  INFO prepare_target{force=false package_id=solana-loader-v3-interface v3.0.0 target="solana_loader_v3_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-loader-v3-interface-58e7ee43dcdf6b53\lib-solana_loader_v3_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.408332200s  INFO prepare_target{force=false package_id=serde_bytes v0.11.17 target="serde_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for serde_bytes v0.11.17/Check { test: false }/TargetInner { ..: lib_target("serde_bytes", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_bytes-0.11.17\\src\\lib.rs", Edition2018) }
+   0.408351600s  INFO prepare_target{force=false package_id=serde_bytes v0.11.17 target="serde_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\serde_bytes-b8385d22e6cfb0ad\lib-serde_bytes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.408822700s  INFO prepare_target{force=false package_id=solana-system-interface v1.0.0 target="solana_system_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-system-interface v1.0.0/Check { test: false }/TargetInner { ..: lib_target("solana_system_interface", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-system-interface-1.0.0\\src\\lib.rs", Edition2021) }
+   0.408837900s  INFO prepare_target{force=false package_id=solana-system-interface v1.0.0 target="solana_system_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-system-interface-a720610040488676\lib-solana_system_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.409352700s  INFO prepare_target{force=false package_id=solana-program-option v2.2.1 target="solana_program_option"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-option v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_option", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-option-2.2.1\\src\\lib.rs", Edition2021) }
+   0.409366800s  INFO prepare_target{force=false package_id=solana-program-option v2.2.1 target="solana_program_option"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-program-option-991acc002e05c9de\lib-solana_program_option`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.409933200s  INFO prepare_target{force=false package_id=solana-program-pack v2.2.1 target="solana_program_pack"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-pack v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_pack", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-pack-2.2.1\\src\\lib.rs", Edition2021) }
+   0.409947800s  INFO prepare_target{force=false package_id=solana-program-pack v2.2.1 target="solana_program_pack"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-program-pack-43f0760cbcd1663c\lib-solana_program_pack`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.410714700s  INFO prepare_target{force=false package_id=solana-sysvar v2.2.1 target="solana_sysvar"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sysvar v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sysvar", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sysvar-2.2.1\\src\\lib.rs", Edition2021) }
+   0.410729900s  INFO prepare_target{force=false package_id=solana-sysvar v2.2.1 target="solana_sysvar"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-sysvar-2ba03bc0592db764\lib-solana_sysvar`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.411374600s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
+   0.411388300s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\base64-abbb6c0fe31e8c8e\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.411726200s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint: fingerprint error for lazy_static v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lazy_static", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\lazy_static-1.5.0\\src\\lib.rs", Edition2015) }
+   0.411739300s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\lazy_static-ad43a1527160ea1e\lib-lazy_static`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.412815300s  INFO prepare_target{force=false package_id=solana-epoch-rewards v2.2.1 target="solana_epoch_rewards"}: cargo::core::compiler::fingerprint: fingerprint error for solana-epoch-rewards v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_epoch_rewards", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-epoch-rewards-2.2.1\\src\\lib.rs", Edition2021) }
+   0.412837800s  INFO prepare_target{force=false package_id=solana-epoch-rewards v2.2.1 target="solana_epoch_rewards"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-epoch-rewards-0d4c9b7ad986c4f0\lib-solana_epoch_rewards`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.413416600s  INFO prepare_target{force=false package_id=solana-epoch-schedule v2.2.1 target="solana_epoch_schedule"}: cargo::core::compiler::fingerprint: fingerprint error for solana-epoch-schedule v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_epoch_schedule", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-epoch-schedule-2.2.1\\src\\lib.rs", Edition2021) }
+   0.413431800s  INFO prepare_target{force=false package_id=solana-epoch-schedule v2.2.1 target="solana_epoch_schedule"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-epoch-schedule-c801d651f894101a\lib-solana_epoch_schedule`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.413951400s  INFO prepare_target{force=false package_id=solana-fee-calculator v2.2.1 target="solana_fee_calculator"}: cargo::core::compiler::fingerprint: fingerprint error for solana-fee-calculator v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_fee_calculator", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-fee-calculator-2.2.1\\src\\lib.rs", Edition2021) }
+   0.413966500s  INFO prepare_target{force=false package_id=solana-fee-calculator v2.2.1 target="solana_fee_calculator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-fee-calculator-6c8db78d6b87eae0\lib-solana_fee_calculator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.414322300s  INFO prepare_target{force=false package_id=log v0.4.27 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.27/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\log-0.4.27\\src\\lib.rs", Edition2021) }
+   0.414336300s  INFO prepare_target{force=false package_id=log v0.4.27 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\log-82d95dd72c524ef5\lib-log`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.414843200s  INFO prepare_target{force=false package_id=solana-last-restart-slot v2.2.1 target="solana_last_restart_slot"}: cargo::core::compiler::fingerprint: fingerprint error for solana-last-restart-slot v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_last_restart_slot", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-last-restart-slot-2.2.1\\src\\lib.rs", Edition2021) }
+   0.414860000s  INFO prepare_target{force=false package_id=solana-last-restart-slot v2.2.1 target="solana_last_restart_slot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-last-restart-slot-badadfd09184339a\lib-solana_last_restart_slot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.415512900s  INFO prepare_target{force=false package_id=solana-rent v2.2.1 target="solana_rent"}: cargo::core::compiler::fingerprint: fingerprint error for solana-rent v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_rent", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-rent-2.2.1\\src\\lib.rs", Edition2021) }
+   0.415528200s  INFO prepare_target{force=false package_id=solana-rent v2.2.1 target="solana_rent"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-rent-c97ba45af5e25307\lib-solana_rent`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.416052100s  INFO prepare_target{force=false package_id=solana-slot-hashes v2.2.1 target="solana_slot_hashes"}: cargo::core::compiler::fingerprint: fingerprint error for solana-slot-hashes v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_slot_hashes", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-slot-hashes-2.2.1\\src\\lib.rs", Edition2021) }
+   0.416067300s  INFO prepare_target{force=false package_id=solana-slot-hashes v2.2.1 target="solana_slot_hashes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-slot-hashes-74ffe7f6a274f7e3\lib-solana_slot_hashes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.416527700s  INFO prepare_target{force=false package_id=solana-slot-history v2.2.1 target="solana_slot_history"}: cargo::core::compiler::fingerprint: fingerprint error for solana-slot-history v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_slot_history", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-slot-history-2.2.1\\src\\lib.rs", Edition2021) }
+   0.416541900s  INFO prepare_target{force=false package_id=solana-slot-history v2.2.1 target="solana_slot_history"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-slot-history-bfd162f49c99b365\lib-solana_slot_history`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.417177800s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint: fingerprint error for bv v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bv", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bv-0.11.1\\src\\lib.rs", Edition2015) }
+   0.417194700s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\bv-9a9209b929701049\lib-bv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.418343700s  INFO prepare_target{force=false package_id=solana-stake-interface v1.2.1 target="solana_stake_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-stake-interface v1.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_stake_interface", ["rlib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-stake-interface-1.2.1\\src\\lib.rs", Edition2021) }
+   0.418363400s  INFO prepare_target{force=false package_id=solana-stake-interface v1.2.1 target="solana_stake_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\solana-stake-interface-19ab8ce94e76d055\lib-solana_stake_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.418907200s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\mk281\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   0.418922000s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\thiserror-eeaa3253e5b611db\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.419345400s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic)/Check { test: true }/TargetInner { ..: lib_target("basic", ["cdylib", "lib"], "C:\\Users\\mk281\\Desktop\\Solana contract\\Calculator\\anchor\\programs\\basic\\src\\lib.rs", Edition2021) }
+   0.419360400s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mk281\Desktop\Solana contract\Calculator\anchor\target\debug\.fingerprint\basic-5fc2b84a3d486f62\test-lib-basic`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking cfg-if v1.0.0
+    Checking cpufeatures v0.2.17
+    Checking zerocopy v0.7.35
+    Checking typenum v1.18.0
+    Checking once_cell v1.21.3
+    Checking num-traits v0.2.19
+    Checking bs58 v0.5.1
+    Checking serde v1.0.219
+    Checking bytemuck v1.22.0
+    Checking solana-atomic-u64 v2.2.1
+    Checking solana-sanitize v2.2.1
+    Checking five8_core v0.1.2
+    Checking subtle v2.6.1
+    Checking zeroize v1.8.1
+    Checking rand_core v0.6.4
+    Checking borsh v1.5.7
+    Checking five8_const v0.1.4
+    Checking solana-msg v2.2.1
+    Checking log v0.4.27
+    Checking bitflags v2.9.0
+    Checking base64 v0.22.1
+    Checking solana-define-syscall v2.2.1
+    Checking lazy_static v1.5.0
+    Checking thiserror v1.0.69
+    Checking base64 v0.21.7
+    Checking ahash v0.8.11
+    Checking solana-program-option v2.2.1
+    Checking generic-array v0.14.7
+    Checking hashbrown v0.13.2
+    Checking solana-decode-error v2.2.1
+    Checking solana-program-memory v2.2.1
+    Checking borsh v0.10.4
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking digest v0.10.7
+    Checking sha2 v0.10.8
+    Checking curve25519-dalek v4.1.3
+    Checking solana-hash v2.2.1
+    Checking bincode v1.3.3
+    Checking bv v0.11.1
+    Checking serde_bytes v0.11.17
+    Checking solana-fee-calculator v2.2.1
+    Checking solana-sha256-hasher v2.2.1
+    Checking solana-pubkey v2.3.0
+    Checking solana-instruction v2.2.1
+    Checking solana-sdk-ids v2.2.1
+    Checking solana-sysvar-id v2.2.1
+    Checking solana-feature-gate-interface v2.2.1
+    Checking solana-program-error v2.2.1
+    Checking solana-system-interface v1.0.0
+    Checking solana-serialize-utils v2.2.1
+    Checking solana-stable-layout v2.2.1
+    Checking solana-clock v2.2.1
+    Checking solana-slot-hashes v2.2.1
+    Checking solana-epoch-rewards v2.2.1
+    Checking solana-last-restart-slot v2.2.1
+    Checking solana-slot-history v2.2.1
+    Checking solana-epoch-schedule v2.2.1
+    Checking solana-rent v2.2.1
+    Checking solana-account-info v2.2.1
+    Checking solana-program-pack v2.2.1
+    Checking solana-loader-v3-interface v3.0.0
+    Checking solana-cpi v2.2.1
+    Checking solana-program-entrypoint v2.2.1
+    Checking solana-instructions-sysvar v2.2.1
+    Checking solana-stake-interface v1.2.1
+    Checking solana-invoke v0.4.0
+    Checking solana-sysvar v2.2.1
+    Checking anchor-lang v0.32.1
+error: could not compile `anchor-lang` (lib) due to 2 previous errors
