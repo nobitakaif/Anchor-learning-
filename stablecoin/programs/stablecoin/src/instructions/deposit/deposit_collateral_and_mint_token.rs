@@ -17,7 +17,7 @@ pub struct DepositCollateralAndMintToken<'info>{
         bump = config_account.bump,
         has_one = mint_account,
     )]
-    pub config_account : Account<'info, Config>,
+    pub config_account : Box<Account<'info, Config>>,
     #[account(mut)]
     pub mint_account : InterfaceAccount<'info, Mint>,
     #[account(
@@ -46,4 +46,25 @@ pub struct DepositCollateralAndMintToken<'info>{
     pub associated_token_program : Program<'info, AssociatedToken>,
     pub system_program  : Program<'info, System>,
     pub price_update : Account<'info, PriceUpdateV2>
+}
+
+pub fn process_deposit_collateral_and_mint_tokens(
+    ctx : Context<DepositCollateralAndMintToken>,
+    amount_collateral : u64,
+    amount_to_mint : u64,
+) -> Result<()>{
+    let collateral_account = &mut ctx.accounts.collateral_account;
+    collateral_account.lamport_balance = ctx.accounts.sol_account.lamports() + amount_collateral;
+    collateral_account.amount_minted += amount_to_mint;
+
+    if !collateral_account.is_initialized {
+        collateral_account.is_initialized = true;
+        collateral_account.depositor = ctx.accounts.depositor.key();
+        collateral_account.sol_account = ctx.accounts.sol_account.key();
+        collateral_account.token_account = ctx.accounts.token_account.key();
+        collateral_account.bump = ctx.bumps.collateral_account;
+        collateral_account.bump_sol_account = ctx.bumps.sol_account;
+    }
+    
+    Ok(())
 }
