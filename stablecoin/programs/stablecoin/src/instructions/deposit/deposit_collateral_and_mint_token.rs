@@ -4,6 +4,7 @@ use anchor_spl::token_interface::TokenAccount;
 use anchor_spl::token_interface::Token2022;
 use anchor_spl::token_interface::Mint;
 use pyth_solana_receiver_sdk::price_update::PriceUpdateV2;
+use crate::instructions::check_health_factor;
 use crate::instructions::deposit;
 use crate::instructions::deposit_sol;
 use crate::instructions::mint_tokens;
@@ -69,6 +70,12 @@ pub fn process_deposit_collateral_and_mint_tokens(
         collateral_account.bump = ctx.bumps.collateral_account;
         collateral_account.bump_sol_account = ctx.bumps.sol_account;
     }
+
+    check_health_factor(
+        &ctx.accounts.collateral_account,
+        &ctx.accounts.config_account,
+        &ctx.accounts.price_update
+    )?;
 
     deposit_sol(
         &ctx.accounts.system_program,

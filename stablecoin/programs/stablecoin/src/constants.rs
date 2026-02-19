@@ -12,3 +12,4 @@ pub const MINT_DECIMAL: u8 = 9;
 pub const LIQUIDATION_THRESHOLD : u64 = 50;
 pub const LIQUIDATION_BONUS : u64 = 10;
 pub const MIN_HEALTH_FACTOR : u64 = 1;
+pub const PRICE_FEED_DECIMAL_ADJUSTMENT: u128 = 10;
